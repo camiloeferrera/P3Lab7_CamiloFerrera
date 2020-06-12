@@ -3,6 +3,7 @@
 
 #include "Pieza.h"
 #include "Infanteria.h"
+#include "Rey.h"
 
 
 class Tablero

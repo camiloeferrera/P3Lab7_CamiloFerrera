@@ -14,7 +14,8 @@ Tablero::Tablero()
 		}
 	}
 	
-	tablero[0][0] = new Infanteria('I',0,0);
+	tablero[0][4] = new Rey('R',0,4);
+	tablero[0][3] = new Infanteria('I',0,3);
 }
 
 Tablero::~Tablero()
