@@ -7,7 +7,8 @@ Infanteria::~Infanteria()
 {
 }
 
-bool Infanteria::movimientoValido(int x,int y,Pieza*** tablero){
+bool Infanteria::movimientoValido(int x,int y,Pieza*** tablero)
+{
 	if (x == i+1 && (y == j || y == j-1 || y == j+1)){
 		if (y == j-1 || y == j+1){
 			i = x;

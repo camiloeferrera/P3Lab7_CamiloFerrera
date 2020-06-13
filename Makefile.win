@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o Pieza.o Chaturanga.o Infanteria.o Tablero.o Rey.o
-LINKOBJ  = main.o Pieza.o Chaturanga.o Infanteria.o Tablero.o Rey.o
+OBJ      = main.o Pieza.o Chaturanga.o Infanteria.o Tablero.o Rey.o Ministro.o Elefante.o Torre.o Caballo.o
+LINKOBJ  = main.o Pieza.o Chaturanga.o Infanteria.o Tablero.o Rey.o Ministro.o Elefante.o Torre.o Caballo.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -41,3 +41,15 @@ Tablero.o: Tablero.cpp
 
 Rey.o: Rey.cpp
 	$(CPP) -c Rey.cpp -o Rey.o $(CXXFLAGS)
+
+Ministro.o: Ministro.cpp
+	$(CPP) -c Ministro.cpp -o Ministro.o $(CXXFLAGS)
+
+Elefante.o: Elefante.cpp
+	$(CPP) -c Elefante.cpp -o Elefante.o $(CXXFLAGS)
+
+Torre.o: Torre.cpp
+	$(CPP) -c Torre.cpp -o Torre.o $(CXXFLAGS)
+
+Caballo.o: Caballo.cpp
+	$(CPP) -c Caballo.cpp -o Caballo.o $(CXXFLAGS)

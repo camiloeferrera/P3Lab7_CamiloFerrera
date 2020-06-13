@@ -4,6 +4,10 @@
 #include "Pieza.h"
 #include "Infanteria.h"
 #include "Rey.h"
+#include "Ministro.h"
+#include "Elefante.h"
+#include "Torre.h"
+#include "Caballo.h"
 
 
 class Tablero

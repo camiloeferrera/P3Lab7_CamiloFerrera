@@ -6,11 +6,7 @@
 
 int main(int argc, char** argv) {
 	Chaturanga* juego = new Chaturanga();
-	while (true)
-	{
-		juego->jugar();
-		cout <<endl;
-	}
+	juego->jugar();
 	
 	delete juego;
 }

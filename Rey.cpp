@@ -10,10 +10,12 @@ Rey::~Rey()
 
 bool Rey::movimientoValido(int x, int y,Pieza*** tablero)
 {
-	if ((x < i-1 || x > i+1) && (y < j -1 || y > j+1)){
+	if ((x == i-1 || x == i+1 || x == i) && (y == j-1 || y == j+1 || y == j)){
 		return false;
 	}
 	
+	i = x;
+	j = y;
 	
 	return true;
 }
