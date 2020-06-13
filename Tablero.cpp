@@ -35,9 +35,7 @@ Tablero::Tablero()
 	tablero[7][4] = new Rey ('P',7,4);
 	tablero[7][5] = new Elefante('3',7,5);
 	tablero[7][6] = new Caballo ('O',7,6);
-	tablero[7][7] = new Torre('Y',7,7);
-	
-	
+	tablero[7][7] = new Torre('Y',7,7);	
 }
 
 Tablero::~Tablero()

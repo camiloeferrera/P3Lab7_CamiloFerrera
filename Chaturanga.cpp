@@ -49,11 +49,8 @@ void Chaturanga::jugar()
 				cout << "Aqui no hay ninguna pieza..." << endl;
 			}
 		}
-		
-			
-	}
-	
-		
+				
+	}		
 
 }
 

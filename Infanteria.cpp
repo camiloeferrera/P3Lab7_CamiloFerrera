@@ -20,8 +20,7 @@ bool Infanteria::movimientoValido(int x,int y,Pieza*** tablero)
 				j = y;
 				return true;
 			}
-		}
-			
+		}	
 	} else if (x == i-1 && (y == j || y == j-1 || y == j+1)){
 		if (y == j-1 || y == j+1){
 			i = x;
